@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf8e411aa3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Alejandro Sampa</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        <div class="logo">
+            <h1>Alejandro Sampa</h1>
+            <p>Portfolio</p>
+        </div>
+        <form action="">
+            <input type="text" class="search" id="search" placeholder="Search">
+        </form>
+        <div class="categorias" id="categorias">
+            <a href="" class="activo">Todos</a>
+            <a href="">Dibujos</a>
+            <a href="">Fotos</a>
+            <a href="">Diseños</a>
+            <a href="">Tattos</a>
+        </div>
+        </header>   
+       
+        <section class="grid" id="grid">
+        <div class="item" 
+             data-categoria="dibujos" 
+             data-etiquetas="dibujo david davyd jones realismo"
+             data-descripcion="Davyd Jones Puntillismo en Birome"
+        >
+            <div class="item-container">
+                <img src="img/David.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="diseños" 
+             data-etiquetas="diseño japones realismo koi peces"
+             data-descripcion="Diseño de tatto para varias sesiones"
+        >
+            <div class="item-container">
+                <img src="img/Koi.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="dibujos" 
+             data-etiquetas="color rosa dibujo flor"
+             data-descripcion="Dibujo a color de una Rosa"
+        >
+            <div class="item-container">
+                <img src="img/flor.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="tattos" 
+             data-etiquetas="tatuaje tatto programación minimalista"
+             data-descripcion="Tatuaje de programación"
+        >
+            <div class="item-container">
+                <img src="img/andres.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="tattos" 
+             data-etiquetas="japones letras tatto tatuaje"
+             data-descripcion="Tatuaje letras orientales"
+        >
+            <div class="item-container">
+                <img src="img/letraschinas.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="tattos" 
+             data-etiquetas="cara carita tatto tatuaje sonrisa sonriente"
+             data-descripcion="Tatuaje cara sonriente"
+        >
+            <div class="item-container">
+                <img src="img/carita.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="diseños" 
+             data-etiquetas="flor diseño "
+             data-descripcion="Diseño a pedido para agregar a una calavera"
+        >
+            <div class="item-container">
+                <img src="img/diseño.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="fotos" 
+             data-etiquetas="gato negro zuca foto"
+             data-descripcion="Mi mascota y yo de fondo"
+        >
+            <div class="item-container">
+                <img src="img/zuca.png" alt="">
+            </div>
+        </div>
+        <div class="item" 
+             data-categoria="fotos" 
+             data-etiquetas="foto tatuaje tatto tatuador tatuando"
+             data-descripcion="Primera sesión de tatuaje"
+        >
+            <div class="item-container">
+                <img src="img/tatuando.jpg" alt="">
+            </div>
+        </div>
+        </section>
+
+        <section class="overlay" id="overlay">
+        <div class="container-img">
+            <button id="btn-cerrar-popup"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+            <img class="img-overlay" src="" alt="" >
+        </div>
+        <p class="descripcion"></p>
+        </section>
+
+        <footer class="container">
+            <div class="redes-sociales">
+                    <a href="https://www.instagram.com/sampita92/" target="_blank" class="instagram">
+                       <i class="fa-brands fa-instagram"></i>
+                    </a>
+            </div>
+                <div class="creado-por">
+                    <p>Sitio diseñado por Alejandro Sampaolesi</p>
+                </div>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+
+    </body>
+</html>
